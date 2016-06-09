@@ -1,0 +1,8 @@
+services:
+    game.example:
+        class: GameBundle\Event\SecurityEvent
+        tags:
+          - { name: kernel.event_subscriber }
+
+
+

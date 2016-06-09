@@ -1,0 +1,3 @@
+default:
+  resource: GameBundle\Controller\DefaultController
+  type: rest
